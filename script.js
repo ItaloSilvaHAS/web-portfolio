@@ -43,8 +43,40 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
+function initMenu() {
+    const menuToggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('menu');
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelectorAll('.nav-link');
+    
+    if (!menuToggle || !menu) return;
+    
+    menuToggle.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+        menu.classList.toggle('menu-open');
+        hamburger.classList.toggle('active');
+    });
+    
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            menu.classList.add('hidden');
+            menu.classList.remove('menu-open');
+            hamburger.classList.remove('active');
+        });
+    });
+    
+    document.addEventListener('click', (e) => {
+        if (!menuToggle.contains(e.target) && !menu.contains(e.target)) {
+            menu.classList.add('hidden');
+            menu.classList.remove('menu-open');
+            hamburger.classList.remove('active');
+        }
+    });
+}
+
 window.addEventListener('DOMContentLoaded', () => {
     createParticles();
+    initMenu();
     
     const sections = document.querySelectorAll('.section-content');
     sections.forEach(section => {
