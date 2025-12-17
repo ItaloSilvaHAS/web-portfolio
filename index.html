@@ -3,61 +3,430 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Italo</title>
+    <title>Italo Silva - Dev.</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-black overflow-y-auto overflow-x-hidden relative">
-    <!-- Animação de fundo com partículas -->
     <div class="background-animation">
         <div class="particles-container"></div>
     </div>
     
-    <!-- Hero Section -->
-    <section class="relative z-10 min-h-screen flex items-center px-6 md:px-12 lg:px-24">
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-gray-800/50">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <span class="text-white font-bold text-xl">Italo Silva</span>
+                <div class="hidden md:flex gap-8">
+                    <a href="#inicio" class="text-gray-400 hover:text-white transition-colors">Início</a>
+                    <a href="#sobre-mim" class="text-gray-400 hover:text-white transition-colors">Sobre Mim</a>
+                    <a href="#habilidades" class="text-gray-400 hover:text-white transition-colors">Habilidades</a>
+                    <a href="#experiencia" class="text-gray-400 hover:text-white transition-colors">Experiência</a>
+                    <a href="#projetos" class="text-gray-400 hover:text-white transition-colors">Projetos</a>
+                    <a href="#contato" class="text-gray-400 hover:text-white transition-colors">Contato</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="relative z-10 min-h-screen flex items-center px-6 md:px-12 lg:px-24 pt-20">
         <div class="w-full max-w-5xl">
-            <!-- Desenvolvedor de Sistemas - Minimalista -->
             <div class="mb-6 opacity-0 animate-fade-in" style="animation-delay: 0.5s; animation-fill-mode: forwards;">
-                <p class="text-gray-400 text-sm md:text-base font-light tracking-widest uppercase">
-                    Desenvolvedor de Sistemas
+                <p class="text-gray-500 text-sm md:text-base font-light tracking-widest uppercase">
+                    Desenvolvedor Full Stack
                 </p>
             </div>
             
-            <!-- Texto principal - Construindo experiencias digitais modernas -->
             <div class="mb-8 opacity-0 animate-slide-in-left" style="animation-delay: 1s; animation-fill-mode: forwards;">
                 <h1 class="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white leading-tight">
                     Construindo<br>
                     <span class="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                        experiencias digitais
+                        experiências digitais
                     </span><br>
-                    modernas
+                    inovadoras
                 </h1>
             </div>
             
-            <!-- Apresentação -->
             <div class="opacity-0 animate-fade-in-up" style="animation-delay: 1.5s; animation-fill-mode: forwards;">
-                <p class="text-gray-300 text-base md:text-lg lg:text-xl leading-relaxed max-w-2xl">
-                    Sou Italo, apaixonado por transformar ideias em realidade através de soluções elegantes e funcionais que fazem a diferença. Especializado em criar experiências digitais que unem design moderno e tecnologia de ponta.
+                <p class="text-gray-400 text-base md:text-lg lg:text-xl leading-relaxed max-w-2xl">
+                    Transformo ideias em sistemas robustos e sites elegantes. Disponível para projetos freelancer e oportunidades de crescimento profissional.
                 </p>
             </div>
         </div>
     </section>
     
-    <!-- Seção Sobre Mim -->
     <section id="sobre-mim" class="relative z-10 min-h-screen flex items-center px-6 md:px-12 lg:px-24 py-20">
-        <div class="w-full max-w-5xl mx-auto">
+        <div class="w-full max-w-4xl mx-auto">
             <div class="section-content opacity-0">
-                <h2 class="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-8">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-12">
                     Sobre Mim
                 </h2>
-                <div class="text-gray-300 text-lg md:text-xl leading-relaxed">
-                    <!-- Conteúdo será adicionado aqui -->
+                <div class="space-y-6 text-gray-400 text-lg leading-relaxed">
+                    <p>
+                        Sou <span class="text-white">Italo Silva</span>, desenvolvedor de software especializado em criar desde sistemas complexos até sites modernos e responsivos. Minha paixão está em transformar problemas reais em soluções digitais funcionais e elegantes.
+                    </p>
+                    <p>
+                        Atuo com desenvolvimento web, aplicações desktop e automações, sempre buscando entregar código limpo e experiências de usuário excepcionais. Cada projeto é uma oportunidade de superar expectativas.
+                    </p>
+                    <div class="pt-4 border-t border-gray-800/50">
+                        <p class="text-gray-500 text-base">
+                            <span class="text-purple-400">Disponível para freelancer</span> — aceito projetos de desenvolvimento web, sistemas personalizados e consultoria técnica.
+                        </p>
+                        <p class="text-gray-500 text-base mt-2">
+                            <span class="text-blue-400">Buscando oportunidades</span> — aberto a posições fixas que ofereçam crescimento profissional e desafios técnicos.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section id="habilidades" class="relative z-10 py-20 px-6 md:px-12 lg:px-24">
+        <div class="w-full max-w-4xl mx-auto">
+            <div class="section-content opacity-0">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-16">
+                    Habilidades
+                </h2>
+                
+                <div class="space-y-12">
+                    <div>
+                        <h3 class="text-gray-500 text-sm uppercase tracking-widest mb-6">Linguagens</h3>
+                        <div class="flex flex-wrap gap-4">
+                            <span class="text-white text-lg">Python</span>
+                            <span class="text-gray-600">•</span>
+                            <span class="text-white text-lg">JavaScript</span>
+                            <span class="text-gray-600">•</span>
+                            <span class="text-white text-lg">C/C++</span>
+                            <span class="text-gray-600">•</span>
+                            <span class="text-white text-lg">PHP</span>
+                            <span class="text-gray-600">•</span>
+                            <span class="text-white text-lg">SQL</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-gray-500 text-sm uppercase tracking-widest mb-6">Tecnologias</h3>
+                        <div class="flex flex-wrap gap-4">
+                            <span class="text-white text-lg">Node.js</span>
+                            <span class="text-gray-600">•</span>
+                            <span class="text-white text-lg">Electron</span>
+                            <span class="text-gray-600">•</span>
+                            <span class="text-white text-lg">OpenGL</span>
+                            <span class="text-gray-600">•</span>
+                            <span class="text-white text-lg">REST APIs</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-gray-500 text-sm uppercase tracking-widest mb-6">Web</h3>
+                        <div class="flex flex-wrap gap-4">
+                            <span class="text-white text-lg">HTML5</span>
+                            <span class="text-gray-600">•</span>
+                            <span class="text-white text-lg">CSS3</span>
+                            <span class="text-gray-600">•</span>
+                            <span class="text-white text-lg">Tailwind</span>
+                            <span class="text-gray-600">•</span>
+                            <span class="text-white text-lg">Responsive Design</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-gray-500 text-sm uppercase tracking-widest mb-6">Banco de Dados</h3>
+                        <div class="flex flex-wrap gap-4">
+                            <span class="text-white text-lg">MySQL</span>
+                            <span class="text-gray-600">•</span>
+                            <span class="text-white text-lg">PostgreSQL</span>
+                            <span class="text-gray-600">•</span>
+                            <span class="text-white text-lg">SQLite</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-gray-500 text-sm uppercase tracking-widest mb-6">Especialidades</h3>
+                        <div class="flex flex-wrap gap-4">
+                            <span class="text-white text-lg">Machine Learning</span>
+                            <span class="text-gray-600">•</span>
+                            <span class="text-white text-lg">Web Scraping</span>
+                            <span class="text-gray-600">•</span>
+                            <span class="text-white text-lg">Automação</span>
+                            <span class="text-gray-600">•</span>
+                            <span class="text-white text-lg">Cyber Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia" class="relative z-10 py-20 px-6 md:px-12 lg:px-24">
+        <div class="w-full max-w-4xl mx-auto">
+            <div class="section-content opacity-0">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-16">
+                    Formação
+                </h2>
+                
+                <div class="space-y-8">
+                    <div class="group">
+                        <div class="flex items-start gap-6">
+                            <div class="w-px h-full bg-gradient-to-b from-purple-500 to-transparent min-h-[80px]"></div>
+                            <div>
+                                <span class="text-purple-400 text-sm">Objetivo</span>
+                                <h3 class="text-white text-xl mt-1">Mestrado e Doutorado</h3>
+                                <p class="text-gray-500 mt-2">Pesquisa em Tecnologia e Educação</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="group">
+                        <div class="flex items-start gap-6">
+                            <div class="w-px h-full bg-gradient-to-b from-blue-500 to-transparent min-h-[80px]"></div>
+                            <div>
+                                <span class="text-blue-400 text-sm">Próximo</span>
+                                <h3 class="text-white text-xl mt-1">Ciência da Computação</h3>
+                                <p class="text-gray-500 mt-2">Bacharelado</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="group">
+                        <div class="flex items-start gap-6">
+                            <div class="w-px h-full bg-gradient-to-b from-gray-600 to-transparent min-h-[80px]"></div>
+                            <div>
+                                <span class="text-gray-500 text-sm">Superior</span>
+                                <h3 class="text-white text-xl mt-1">Desenvolvimento de Software Multiplataforma</h3>
+                                <p class="text-gray-500 mt-2">Tecnólogo</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="group">
+                        <div class="flex items-start gap-6">
+                            <div class="w-px h-full bg-gradient-to-b from-gray-600 to-transparent min-h-[80px]"></div>
+                            <div>
+                                <span class="text-gray-500 text-sm">Superior</span>
+                                <h3 class="text-white text-xl mt-1">Análise e Desenvolvimento de Sistemas</h3>
+                                <p class="text-gray-500 mt-2">Tecnólogo</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="group">
+                        <div class="flex items-start gap-6">
+                            <div class="w-px h-full bg-gray-800 min-h-[60px]"></div>
+                            <div>
+                                <span class="text-gray-600 text-sm">Técnico</span>
+                                <h3 class="text-white text-xl mt-1">Desenvolvimento de Sistemas</h3>
+                                <p class="text-gray-500 mt-2">Ensino Técnico</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="relative z-10 py-20 px-6 md:px-12 lg:px-24">
+        <div class="w-full max-w-5xl mx-auto">
+            <div class="section-content opacity-0">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-16">
+                    Projetos
+                </h2>
+
+                <div class="mb-20">
+                    <div class="border-l-2 border-purple-500 pl-8">
+                        <span class="text-purple-400 text-sm uppercase tracking-widest">Destaque</span>
+                        <h3 class="text-3xl md:text-4xl font-bold text-white mt-2 mb-4">Flow Browser</h3>
+                        <p class="text-gray-400 text-lg mb-6 max-w-2xl">
+                            Navegador focado em produtividade para estudos. Arquitetura Electron com ferramentas integradas que eliminam distrações e maximizam o foco.
+                        </p>
+                        <div class="flex flex-wrap gap-4 text-gray-500 text-sm mb-6">
+                            <span>Electron</span>
+                            <span>•</span>
+                            <span>Node.js</span>
+                            <span>•</span>
+                            <span>HTML/CSS/JS</span>
+                        </div>
+                        <a href="https://github.com/ItaloSilvaHAS/Flow-Browser" target="_blank" class="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors">
+                            Ver no GitHub
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-x-12 gap-y-16">
+                    <div class="group">
+                        <h3 class="text-xl text-white mb-2 group-hover:text-purple-400 transition-colors">VORDIS</h3>
+                        <p class="text-gray-500 text-sm mb-3">Simulação 3D de buraco negro com física relativística</p>
+                        <div class="flex gap-3 text-gray-600 text-xs mb-3">
+                            <span>C/C++</span>
+                            <span>•</span>
+                            <span>OpenGL</span>
+                        </div>
+                        <a href="https://github.com/ItaloSilvaHAS/VORDIS-Vortex-Orbital-Relativity-Distortion-Interface-System" target="_blank" class="text-gray-500 hover:text-white text-sm transition-colors">github.com →</a>
+                    </div>
+
+                    <div class="group">
+                        <h3 class="text-xl text-white mb-2 group-hover:text-purple-400 transition-colors">Job Hunter</h3>
+                        <p class="text-gray-500 text-sm mb-3">Bot com ML para classificação automática de vagas</p>
+                        <div class="flex gap-3 text-gray-600 text-xs mb-3">
+                            <span>Python</span>
+                            <span>•</span>
+                            <span>Machine Learning</span>
+                        </div>
+                        <a href="https://github.com/ItaloSilvaHAS/Selene" target="_blank" class="text-gray-500 hover:text-white text-sm transition-colors">github.com →</a>
+                    </div>
+
+                    <div class="group">
+                        <h3 class="text-xl text-white mb-2 group-hover:text-purple-400 transition-colors">Selene - IA</h3>
+                        <p class="text-gray-500 text-sm mb-3">Experimento com Llama 3.2 em ambiente Linux</p>
+                        <div class="flex gap-3 text-gray-600 text-xs mb-3">
+                            <span>Python</span>
+                            <span>•</span>
+                            <span>LLM</span>
+                        </div>
+                        <a href="https://github.com" target="_blank" class="text-gray-500 hover:text-white text-sm transition-colors">github.com →</a>
+                    </div>
+
+                    <div class="group">
+                        <h3 class="text-xl text-white mb-2 group-hover:text-purple-400 transition-colors">UberControl</h3>
+                        <p class="text-gray-500 text-sm mb-3">Gestão financeira para motoristas de aplicativo</p>
+                        <div class="flex gap-3 text-gray-600 text-xs mb-3">
+                            <span>JavaScript</span>
+                            <span>•</span>
+                            <span>Node.js</span>
+                        </div>
+                        <a href="https://github.com/ItaloSilvaHAS/UberControl" target="_blank" class="text-gray-500 hover:text-white text-sm transition-colors">github.com →</a>
+                    </div>
+
+                    <div class="group">
+                        <h3 class="text-xl text-white mb-2 group-hover:text-purple-400 transition-colors">TaskFlow</h3>
+                        <p class="text-gray-500 text-sm mb-3">Sistema colaborativo de gerenciamento de tarefas</p>
+                        <div class="flex gap-3 text-gray-600 text-xs mb-3">
+                            <span>JavaScript</span>
+                            <span>•</span>
+                            <span>SQL</span>
+                        </div>
+                        <a href="https://github.com/ItaloSilvaHAS/TaskFlow" target="_blank" class="text-gray-500 hover:text-white text-sm transition-colors">github.com →</a>
+                    </div>
+
+                    <div class="group">
+                        <h3 class="text-xl text-white mb-2 group-hover:text-purple-400 transition-colors">Blog Pessoal</h3>
+                        <p class="text-gray-500 text-sm mb-3">Documentação de aprendizados e pesquisas</p>
+                        <div class="flex gap-3 text-gray-600 text-xs mb-3">
+                            <span>HTML/CSS/JS</span>
+                        </div>
+                        <a href="https://github.com/ItaloSilvaHAS/Blog-Italo" target="_blank" class="text-gray-500 hover:text-white text-sm transition-colors">github.com →</a>
+                    </div>
+
+                    <div class="group">
+                        <h3 class="text-xl text-white mb-2 group-hover:text-purple-400 transition-colors">Trojan Study</h3>
+                        <p class="text-gray-500 text-sm mb-3">Estudo de segurança ofensiva e análise de malware</p>
+                        <div class="flex gap-3 text-gray-600 text-xs mb-3">
+                            <span>Python</span>
+                            <span>•</span>
+                            <span>Security</span>
+                        </div>
+                        <a href="https://github.com/ItaloSilvaHAS/Trojan-Python" target="_blank" class="text-gray-500 hover:text-white text-sm transition-colors">github.com →</a>
+                    </div>
+
+                    <div class="group">
+                        <h3 class="text-xl text-white mb-2 group-hover:text-purple-400 transition-colors">Raspador Dicio</h3>
+                        <p class="text-gray-500 text-sm mb-3">Automação de extração de dados para Excel</p>
+                        <div class="flex gap-3 text-gray-600 text-xs mb-3">
+                            <span>Python</span>
+                            <span>•</span>
+                            <span>Web Scraping</span>
+                        </div>
+                        <a href="https://github.com/ItaloSilvaHAS/raspador-de-dados-dicio" target="_blank" class="text-gray-500 hover:text-white text-sm transition-colors">github.com →</a>
+                    </div>
+
+                    <div class="group">
+                        <h3 class="text-xl text-white mb-2 group-hover:text-purple-400 transition-colors">Impulso Vida</h3>
+                        <p class="text-gray-500 text-sm mb-3">Plataforma de acessibilidade digital</p>
+                        <div class="flex gap-3 text-gray-600 text-xs mb-3">
+                            <span>HTML/CSS/JS</span>
+                            <span>•</span>
+                            <span>A11y</span>
+                        </div>
+                        <a href="https://github.com/ItaloSilvaHAS/Impulso-Vida" target="_blank" class="text-gray-500 hover:text-white text-sm transition-colors">github.com →</a>
+                    </div>
+
+                    <div class="group">
+                        <h3 class="text-xl text-white mb-2 group-hover:text-purple-400 transition-colors">Spooky Sapoca</h3>
+                        <p class="text-gray-500 text-sm mb-3">Projeto colaborativo desenvolvido na Amazon AWS</p>
+                        <div class="flex gap-3 text-gray-600 text-xs mb-3">
+                            <span>AWS</span>
+                        </div>
+                        <a href="https://github.com/ItaloSilvaHAS/spooky-sapoca-forkItalo" target="_blank" class="text-gray-500 hover:text-white text-sm transition-colors">github.com →</a>
+                    </div>
+
+                    <div class="group">
+                        <h3 class="text-xl text-white mb-2 group-hover:text-purple-400 transition-colors">Diabetes & IMC</h3>
+                        <p class="text-gray-500 text-sm mb-3">Sistema de monitoramento de saúde com BD</p>
+                        <div class="flex gap-3 text-gray-600 text-xs mb-3">
+                            <span>PHP</span>
+                            <span>•</span>
+                            <span>MySQL</span>
+                        </div>
+                        <a href="https://github.com/ItaloSilvaHAS/diabetes-e-imc-site" target="_blank" class="text-gray-500 hover:text-white text-sm transition-colors">github.com →</a>
+                    </div>
+
+                    <div class="group">
+                        <h3 class="text-xl text-white mb-2 group-hover:text-purple-400 transition-colors">Livraria SQL</h3>
+                        <p class="text-gray-500 text-sm mb-3">Gerenciamento de estoque e catálogo</p>
+                        <div class="flex gap-3 text-gray-600 text-xs mb-3">
+                            <span>SQL</span>
+                        </div>
+                        <a href="https://github.com/ItaloSilvaHAS/library-management-sql" target="_blank" class="text-gray-500 hover:text-white text-sm transition-colors">github.com →</a>
+                    </div>
+
+                    <div class="group">
+                        <h3 class="text-xl text-white mb-2 group-hover:text-purple-400 transition-colors">Artspinte</h3>
+                        <p class="text-gray-500 text-sm mb-3">Landing page institucional</p>
+                        <div class="flex gap-3 text-gray-600 text-xs mb-3">
+                            <span>HTML/CSS/JS</span>
+                        </div>
+                        <a href="https://github.com/ItaloSilvaHAS/arts-pinte-landing-page" target="_blank" class="text-gray-500 hover:text-white text-sm transition-colors">github.com →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="relative z-10 py-20 px-6 md:px-12 lg:px-24">
+        <div class="w-full max-w-4xl mx-auto">
+            <div class="section-content opacity-0">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">
+                    Contato
+                </h2>
+                <p class="text-gray-500 text-lg mb-12 max-w-xl">
+                    Interessado em trabalhar junto? Entre em contato para discutir seu projeto ou oportunidade.
+                </p>
+                
+                <div class="space-y-6">
+                    <a href="mailto:italo.ss2007@gmail.com" class="flex items-center gap-4 text-white hover:text-purple-400 transition-colors group">
+                        <svg class="w-5 h-5 text-gray-600 group-hover:text-purple-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                        <span class="text-lg">italo.ss2007@gmail.com</span>
+                    </a>
+                    
+                    <a href="https://github.com/ItaloSilvaHAS" target="_blank" class="flex items-center gap-4 text-white hover:text-purple-400 transition-colors group">
+                        <svg class="w-5 h-5 text-gray-600 group-hover:text-purple-400 transition-colors" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                        <span class="text-lg">github.com/ItaloSilvaHAS</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="relative z-10 py-8 border-t border-gray-900">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <p class="text-gray-600 text-sm">Italo Silva</p>
+        </div>
+    </footer>
     
     <script src="script.js"></script>
 </body>
 </html>
-
